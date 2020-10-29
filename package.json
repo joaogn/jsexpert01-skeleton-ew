@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -c-1 -p 8082 public/"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
